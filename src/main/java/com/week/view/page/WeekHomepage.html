@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Week Configurator Page</title>
+</head>
+
+<body>
+
+ <h1>Week Configurator</h1>
+ <div>
+  <h3>
+   The configuration page to configure the visibility and the color of each day in the week
+  </h3>
+ </div>
+
+
+ <fieldset>
+  <legend>Week Configuration</legend>
+      <div wicket:id="configuration"></div>
+      <form wicket:id="configForm">
+      
+       <label wicket:id="monday" style="color: "></label> <br>
+       <label> visible: </label>
+       <input wicket:id="mondayVisibility" type="checkbox" />
+       <label> color: </label>
+       <input  wicket:id="mondayColor"  type="text"/ >
+       
+       <p style="line-height: 50%"></p>
+    
+       <label wicket:id="tuesday"></label><br>
+       <label> visible: </label>
+       <input wicket:id="tuesdayVisibility" type="checkbox" />
+       <label> color: </label>
+       <input wicket:id="tuesdayColor" type="text"  />
+       
+       <p style="line-height: 50%"></p>
+       
+       <label wicket:id="wednesday"></label><br>
+       <label> visible: </label>
+       <input wicket:id="wednesdayVisibility" type="checkbox" />
+       <label> color: </label>
+       <input wicket:id="wednesdayColor" type="text"  />
+       
+       <p style="line-height: 50%"></p>
+       
+       <label wicket:id="thursday"></label><br>
+       <label> visible: </label>
+       <input wicket:id="thursdayVisibility" type="checkbox" />
+       <label> color: </label>
+       <input wicket:id="thursdayColor" type="text"  />
+       
+       <p style="line-height: 50%"></p>
+       
+       <label wicket:id="friday"></label><br>
+       <label> visible: </label>
+       <input wicket:id="fridayVisibility" type="checkbox" />
+       <label> color: </label>
+       <input wicket:id="fridayColor" type="text"  />
+       
+       <p style="line-height: 50%"></p>
+       
+       <label wicket:id="saturday"></label><br>
+       <label> visible: </label>
+       <input wicket:id="saturdayVisibility" type="checkbox" />
+       <label> color: </label>
+       <input wicket:id="saturdayColor" type="text"  />
+       
+       <p style="line-height: 50%"></p>
+       
+        <label wicket:id="sunday"></label><br>
+       <label> visible: </label>
+       <input wicket:id="sundayVisibility" type="checkbox" />
+       <label> color: </label>
+       <input wicket:id="sundayColor" type="text"  />
+       
+       <p style="line-height: 50%"></p>
+      
+       <input  wicket:id="saveButton" type="submit" value="Save" />
+     
+      </form>
+ </fieldset>
+</body>
+</html>
