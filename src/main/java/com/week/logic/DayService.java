@@ -4,13 +4,11 @@ import java.util.List;
 
 import com.week.model.entities.Day;
 
-public interface WeekManger {
+public interface DayService {
 
-    void generateDays();
+    void save(Day day);
 
-    void deleteAll();
-
-    void updateDay(Day day);
+    void save(List<Day> days);
 
     List<Day> findAll();
 

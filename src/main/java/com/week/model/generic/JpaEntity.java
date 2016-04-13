@@ -9,7 +9,6 @@ import javax.persistence.MappedSuperclass;
 @MappedSuperclass
 public class JpaEntity implements Serializable {
 
-
     @Id
     @GeneratedValue
     private Long id;
